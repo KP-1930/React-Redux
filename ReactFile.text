@@ -1,0 +1,18 @@
+1) Redux intall 
+=> npm i react-redux
+
+2) redux dev tool (extension)
+=>  const store  = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
+=>  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__() :=> added second argument
+
+
+
+// Reducer flow
+
+1) First of define actions in action file
+2) in reducer define reduce function 
+3) all reducer combine in reducers(index.js) 
+4) in store define and include in main index.js
+5) as well as provider set in main index.js
+6)in App.js => useSelector(like consumer) and useDispatch 
+7)finally, useDispatch through action fire (like increment / decrement)
